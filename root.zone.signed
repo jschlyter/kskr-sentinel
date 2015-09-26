@@ -1,0 +1,78 @@
+.					      86400 IN SOA	a.moot-servers.net. jakob.kirei.se. 1 1800 900 604800 86400
+.					      86400 IN RRSIG	SOA 8 0 86400 20151225212501 20150926202501 24279 . cVso4OdAKRIl48QJInwNu9pmHpoVtTsFmaXkbrz9eAiBhnA86yMJWxbP vMA2CDqwi4qVAZLnH54YxBFDTE0yzL1qxs26Q2EDSzxMmzqfu93YLu5B 8KyxMyBqJGnzk1+tLgbHuyNt5p+bdf8EQ3M3+7AOqol1byy+QwcJrZ26 4+s=
+.					      86400 IN NS	a.moot-servers.net.
+.					      86400 IN NS	b.moot-servers.net.
+.					      86400 IN NS	c.moot-servers.net.
+.					      86400 IN NS	d.moot-servers.net.
+.					      86400 IN NS	e.moot-servers.net.
+.					      86400 IN NS	f.moot-servers.net.
+.					      86400 IN NS	g.moot-servers.net.
+.					      86400 IN NS	h.moot-servers.net.
+.					      86400 IN NS	i.moot-servers.net.
+.					      86400 IN NS	j.moot-servers.net.
+.					      86400 IN NS	k.moot-servers.net.
+.					      86400 IN NS	l.moot-servers.net.
+.					      86400 IN NS	m.moot-servers.net.
+.					      86400 IN RRSIG	NS 8 0 86400 20151225212501 20150926202501 24279 . xMBWIY2QbNk7Vr+NPQ9U29SH7Ccbe06Rqk04XnzbQvfW7eyRDWPAcYTT sfqgKWvO+KIGdXxWzRad0Y2kSkDH5O0G2vDPgniMDsHEdEVdLnhpqG1V 6VUrBlFbbZjBUan4haMpmtY3WWdIU1BYdEPc30sxxMYz4tiKH6k9hQMg vL0=
+.					      86400 IN NSEC	a.moot-servers.net. NS SOA RRSIG NSEC DNSKEY
+.					      86400 IN RRSIG	NSEC 8 0 86400 20151225212501 20150926202501 24279 . 2gwcg/jJD/d6rW/e/ar3iGLHBmdjeVOaGYPqZzbeLJo5Hya3aS8DcERY X637I91xz0vg6tRVtZ/qH0KsdNaLHp5wQLvdddsRphToUmsOS0UY/3bq hs7NzQ6zGDLIweqZjTsoo0F1G21mfHHhBZPznqrBFMVH3tI2RkXtS+Vi qzs=
+.					      86400 IN DNSKEY	256 3 8 AwEAAeSYFH2HiLkIiQDJ3sZQl3OgZVlWZxXpHP+LvblzMv5sV0sRFCSl 1CuOSePup1iV4GvrAvhdA2Cbfge6e4MkEsZnmgm6k/JOz21Jq2YCbk9i bpgAwCUsRbITAoGkAAfus4uNtZeuRbLyN5OipLEpfjkwqNPB9IUlTkah cdW/3oph
+.					      86400 IN DNSKEY	257 3 8 AwEAAa/NFrNjkZkrv20XKXInlxtZ3PEI4PBgUBFRn5pzYf5a5xKQQqMF HYcZ2hcQxwO1wo45KtLIntPtR4T8n1+LGrZb9j4xMOI52W+rD+jDXGrt hlUR0yTQ/x5GqAbX+8O2ETFFY3Xown5AMwKSBEfjw3iOc+ytdG04tihn QbMgCParvoT462dL4mT4fvgBaIqMcqY7CWWqqBlGrx2jBxnkU2pUm376 b75uSS+1KFVcaQS0pn0hIvdrERHqG1sL/bTGnKGlKxLw2SW+b6Q+yf2Q gxwwry8DIgqP+pAlkkMntF45yein6HdSOuafKRMsIos7ztaC4M910Q8F PaWmAiym8r8=
+.					      86400 IN DNSKEY	257 3 8 AwEAAcJsfuTuO48fbhiOiGuLM+01qsz/pcAx3rRLefPJ1gU5UOYHbpQ+ 87BJlxC48EjKp9QXJVxFJ00L5p1Z7LBVxwUPq+WeZZOoeABCIHpw7+aO KEWhjmHyn0L/UKEFd1TlXOFrW6Cm1iiGjvSO6iAZyLftJPzQ7+g25Zio HLEoozGdAf+nVyirX98EgC1zlHtEK38jwqHMUuuO4yIJGxRKV2TMSJHF /jTEDHmE0WxZRbdmmQidkv/xVDgTNfzMM+dXqLoLzCdxx1CY/v0AywXR HW2UnSwKtVH5dM+rLoAx8p22TNSXzF0Jpq0SjppMJ+EhlaCwjk8351z4 vX9j4VDSma0=
+.					      86400 IN RRSIG	DNSKEY 8 0 86400 20151225212501 20150926202501 54346 . DbD3U5Le5WEF8BHmB/vyt+Jl+WYriQnsXbKLQV2XT4JVoJhGqX7x56SE 2+FwExVauATe7D7HQOcCps/0xCymZPtW4gTYnHKDq2+pzvLF6NCxRlq+ bkc46R6ZBtCccCC/sy+yUAqYwX7Fd8DW/IlLkYab8Xd2nWRH6e+5hyrQ qdGTwKWZWsBAKNoS59YQBKDSrmu/pqB5ON8e+glpRtyQOwaPEOJ/Qst9 /+tsCvhTODIP1+4AwTPUoUCkjiy9Fwtx/IKiYxIBePKN51/o/0+yynLp wxTNvyjb9zNarEke0cojk9Rxhrbb5+eGUnIiHg0xjWZQQjObnt82Xer8 Uhtigw==
+a.moot-servers.net.			      86400 IN A	127.0.0.1
+a.moot-servers.net.			      86400 IN RRSIG	A 8 3 86400 20151225212501 20150926202501 24279 . vHdeqkWkGmwpm5JMxAXZL1GzWFnbpGqdwnwhPnx4vUcStGcCpErwWTyj Ja8SoxpcyuFOhGLLB3nYfMbyciC5ZD47rxsBp3VFC8kLXjsFRVZwSpGx em414EIlmRbLfYehBGOMM+Gz/DeGt4Ue9/7Yw36sETtj88XMEAB30vPW fJI=
+a.moot-servers.net.			      86400 IN NSEC	b.moot-servers.net. A RRSIG NSEC
+a.moot-servers.net.			      86400 IN RRSIG	NSEC 8 3 86400 20151225212501 20150926202501 24279 . Mv3YqL/MDzn9eP1Dkuut8R0FW21OW4k6xEAwHhxuY/UzySKPBPAEWFCa xHalrLCZYHwQRjIGs9dMPDisRZ9lSN3Ikr7xfKrosM6zjOXbSvGNMSl7 fYlpphax6yZ/nXLz7iZoN2BrrUxqVjuaB2kZFmF1vih4hmQSaGTlgcJx MaM=
+b.moot-servers.net.			      86400 IN A	127.0.0.1
+b.moot-servers.net.			      86400 IN RRSIG	A 8 3 86400 20151225212501 20150926202501 24279 . Mh5WI6xOzJEaCjH1rbN6l7DAjoS2YhSu8JMgLFojisSguKGHRE/hUc4L yX6/SUr9S9GYMWiEzrsqVjQo0JktRJR3DkJhv9lwkXCzqzw5ZlJ0J6ZL 9mhD5B/hAwTrWuWiCz4Q7qtb6r0OnwZFeFJTrtDz9UtK4VWZvus1IBzl ioM=
+b.moot-servers.net.			      86400 IN NSEC	c.moot-servers.net. A RRSIG NSEC
+b.moot-servers.net.			      86400 IN RRSIG	NSEC 8 3 86400 20151225212501 20150926202501 24279 . U26mcuWZbqOECnPKWnOLXhgj3fFFeiB73H4/GatdVERSMAFqeQ32cfHP HNMrBnWxiL53H7fTMgIhvYuPSJbHiIQTk7R07tmnSEJsdic++ST3RZri 0uaCh9aWcOggjFkMckBn0+8Ke0bmjUAtHkzXZCWX3AFxYuMkMIpWYQrH fxw=
+c.moot-servers.net.			      86400 IN A	127.0.0.1
+c.moot-servers.net.			      86400 IN RRSIG	A 8 3 86400 20151225212501 20150926202501 24279 . FZl2dkcKpe/HQaV45uWSwqhhZ8fNQNrwJFcxtkhhPqw+fDN0rqCDZbBT ulZuqrOL7beEfDMVx4REhAjqdTWblG6tbmzSWGnnfc3LEqZrWzRMS63E RAdJZIZN5pmrr/1IyXQ1LKH3+dydOrWzLoMqimQ9juHlEhEYeB+sy8/h 2Mc=
+c.moot-servers.net.			      86400 IN NSEC	d.moot-servers.net. A RRSIG NSEC
+c.moot-servers.net.			      86400 IN RRSIG	NSEC 8 3 86400 20151225212501 20150926202501 24279 . MYqL60CjsSbEiQrTwr79GpZX3r+O9LvT0ncSA7WuivqpgmvHlHnZe49V dKx9nC+qktJYbTNRu/o1Ksko67Rs09IxgCL5tbDN8PH80JNldrZfsacW 1YW2QXFXYsdF++kAKQDEfXY+/UkkpXQhzJhCz+7TlzpiybvUe7om9UWS N/I=
+d.moot-servers.net.			      86400 IN A	127.0.0.1
+d.moot-servers.net.			      86400 IN RRSIG	A 8 3 86400 20151225212501 20150926202501 24279 . XaLyS9aVF5FdeX50IkuWTOF77XiamRsxaPga5xp7N4yquFm0YXOJ/+3H wLpkWoJAPJBWUsmBXIy7AK2X0akRrTd5rEMfPKAbJGhWCADtZjvGQxCF EpeJjvvk/CI7IvimsSGLkXVqu18t8K45LN4k6o9l4wqGEmeK+4++ocUu 1DI=
+d.moot-servers.net.			      86400 IN NSEC	e.moot-servers.net. A RRSIG NSEC
+d.moot-servers.net.			      86400 IN RRSIG	NSEC 8 3 86400 20151225212501 20150926202501 24279 . TMr8Dm+x7QupBgZxJUDpbxAVmSwg+MYxcR005EYbJe5UN2Mgp/mve8++ f+nallNh/qzuU1YH8mUPQXFcmXaw0K/kdyKN8zW6l3/wUEHmMoWM4ENq wsBSJHgT/h2HsoDz4YnItUOnRCLpInKba2OPip+cVUhSflqBljG+yV6Z djc=
+e.moot-servers.net.			      86400 IN A	127.0.0.1
+e.moot-servers.net.			      86400 IN RRSIG	A 8 3 86400 20151225212501 20150926202501 24279 . kIKeHIGZ5w7Ttsu4nZ0FkfsG5mBrIn+EGXdH2gYubl9+0IzW0fnSV7Pd CzVqE7/DTpAQi4ImNmH310vXxx9rdwaCgMAr52y3vAuLl6xkhArTvYHa skiXejMqMSK4aWykBNT7QRR5z+ZEih+RABsJQJ6971Z+B+/QtZuA8J9E AA0=
+e.moot-servers.net.			      86400 IN NSEC	f.moot-servers.net. A RRSIG NSEC
+e.moot-servers.net.			      86400 IN RRSIG	NSEC 8 3 86400 20151225212501 20150926202501 24279 . BesJhD++gvcpdMIlz4Dad+OlzOwjzHUDOBJopD5WFkJpTq4GueEag5Gx 0hQiO8reDhcUkl8f24JOSD/H/7sKcC69tZk3OE63X3lf5PRQnFGGI5vM egSS5ZurMUHKpU9ktKPkcmymj8KuBCLleNEZ7D++v7wZ8a6BN7eC4mqs h8M=
+f.moot-servers.net.			      86400 IN A	127.0.0.1
+f.moot-servers.net.			      86400 IN RRSIG	A 8 3 86400 20151225212501 20150926202501 24279 . ClZJwvPyoLMdaTXCE4EFSfGgsliouykLL3Egy7zpJbQwOb0b0EJGmpRX N5TFCpq8m8szOf+UD35a4hg126uXTavtyFCxOB5OaI4E7kW+Xm/9ZuzD 31U8ecEBfKVkGh2g5HAnMr7uCV1J7WuMA8U0HrV6MDDviT4kMQ0FIhlo FP4=
+f.moot-servers.net.			      86400 IN NSEC	g.moot-servers.net. A RRSIG NSEC
+f.moot-servers.net.			      86400 IN RRSIG	NSEC 8 3 86400 20151225212501 20150926202501 24279 . oev/T7U2PdusuUSORp8Itw031aFxcSKXWceYJfwx3+Xa5TpN7qi2Hkyi WHw7foyEowRrARczUSsD10aU53xnquHOkOKEgpCyn+m5rzGfAL4741q1 QMa0PmCfoNnoXpO8r46YkQuUNRdKOU62gYk7pNms6OvCCHDnpNYivzv9 fpQ=
+g.moot-servers.net.			      86400 IN A	127.0.0.1
+g.moot-servers.net.			      86400 IN RRSIG	A 8 3 86400 20151225212501 20150926202501 24279 . TIVsUokvZ7SGgT+0aVudXZkkWWDH950ISejKBPbDIbKmLFbJ/qw8JZE/ 9CpAua9riW/+rus/X3aZRL2C6K/kzdGYpEHlYx6L0PvvbktQKutlaslD E/CeOsvoxeORKREqcGZjEU+tx/kiwmOsixqSAEVGmuQoHGdOGls9e9YU GYs=
+g.moot-servers.net.			      86400 IN NSEC	h.moot-servers.net. A RRSIG NSEC
+g.moot-servers.net.			      86400 IN RRSIG	NSEC 8 3 86400 20151225212501 20150926202501 24279 . dIhI4Ov9zwh0k0d2fsHLiq35nrCmcHaXHLnWc9Xgp3JCRrmmZWb3A5vc JstP+FoOaYVxH9svLKzOx/p/PqVTg+WSiGHKX3Qs8qTO8Oh/gQadc1wG 0ax1yIv28hDqM/36uDPZS8OCsERmHi+2lYn7MQMQ7sgS/FAC254XogQz b0U=
+h.moot-servers.net.			      86400 IN A	127.0.0.1
+h.moot-servers.net.			      86400 IN RRSIG	A 8 3 86400 20151225212501 20150926202501 24279 . zJhX0Z4LbQ6gzth3sSxBXEB0urSKS1XLliCDaM+VuQ31Ph5SsamD6k+V FojxIrQPrnXdt5VVn7JJyzU1Y0LVZ4khFSNLm1T4HiwcfnUo1zZP7Q/b 6XnBLAEtu1JSpj2zCIFAv8K4PcIHF0l3ppsR6H6GJjxvkw8LozppuQdj Pwk=
+h.moot-servers.net.			      86400 IN NSEC	i.moot-servers.net. A RRSIG NSEC
+h.moot-servers.net.			      86400 IN RRSIG	NSEC 8 3 86400 20151225212501 20150926202501 24279 . F7sJ/NcpfCWuITGkr/jWaQfMahEBD3we3FduM1S3S+YjSKB6BygA4Y1i 6+MSFTqNl7M2Vlg3zuC6mxBv/tnhAeYTu9LqU2WTzm/aJ1610fJDp53v fifLoyueVwQl4PeY8O2r/WZvQkTIetpXhcdy/mbRIjL/+gybJ3OareEF Fsw=
+i.moot-servers.net.			      86400 IN A	127.0.0.1
+i.moot-servers.net.			      86400 IN RRSIG	A 8 3 86400 20151225212501 20150926202501 24279 . IwYdzjQyZed1s+Jpge5yKuJFP7qDiaXvI/4Y3ItNq97oi85H8v3lPCd+ s0GemhSr4TG5GMkD2P7LNe5qoiPciSS4CGuC2sHTxh6aH/t1z8bdq0fH WjCTkoA7ccol4Os09yhWdCbf0zf/6jTwNIg6nQy9DRERf2tQjMzEjVFn Bc0=
+i.moot-servers.net.			      86400 IN NSEC	j.moot-servers.net. A RRSIG NSEC
+i.moot-servers.net.			      86400 IN RRSIG	NSEC 8 3 86400 20151225212501 20150926202501 24279 . LwbFTHOuy7gWDjPxLCzSVMEFRYwZ6r54KMAv23nL2aRnm0rlPX2x7YEh ArAZPflNoqAwBCMSzkHNU24F8WuAy9zGPcg6BYyuIizh3U0IzqP0XxdW 0svrzXN94+774hnt9uEM8xOGWPYx6KgwGWovQtevpDaol3XqxaeDR69m ric=
+j.moot-servers.net.			      86400 IN A	127.0.0.1
+j.moot-servers.net.			      86400 IN RRSIG	A 8 3 86400 20151225212501 20150926202501 24279 . SNaLMXbiMqA228Q7bcUsGJtimd1TWe/0wHrQi3ADtLs3hix/xzGbNIx/ y9xBIgrKn2DkrDokergF106i+pBSYgINgbSo7CRmQoZ2YjE2B3BygLpW DkaR3LX1GqmXVR+0vrlAdvspq9u8vOfBcQ3+VE6TH4QEVZtNOwRz3EpC jWU=
+j.moot-servers.net.			      86400 IN NSEC	k.moot-servers.net. A RRSIG NSEC
+j.moot-servers.net.			      86400 IN RRSIG	NSEC 8 3 86400 20151225212501 20150926202501 24279 . c2Q1YOT91tInJzle2alzs2pVbQXf+B7+Ea1bS2VWakUFqpb93qeI6/Up 6CkjJwEwPNNvv/AGxRNM9pTPukYU0mzIBFo+7IaG3GinukowxpmNY/B7 kxfG6XfKTCxd5nAJbhfd4y7nK8PwiiOetxU9XP6dM89wyuonmntDTiCy pIQ=
+k.moot-servers.net.			      86400 IN A	127.0.0.1
+k.moot-servers.net.			      86400 IN RRSIG	A 8 3 86400 20151225212501 20150926202501 24279 . H6cV2mPHV0Jrx+zfq2FDS88O93n2k6nk2AnIq5mrD5vD7vA5hoZl4qhE Fk/9wLcLrYWm7lwgTMKKz1o6yEInNg49qgpCvwMVxFSyC/RYrF0iaWc+ vvISuxRmV/QDhHfVEKJp5gAJOoq9fsGW6BBV/RuEMGRUiUOB8+BwoG04 ECA=
+k.moot-servers.net.			      86400 IN NSEC	l.moot-servers.net. A RRSIG NSEC
+k.moot-servers.net.			      86400 IN RRSIG	NSEC 8 3 86400 20151225212501 20150926202501 24279 . TNdgV2K1d1pHNLeYHAKu6wyeLmzf/VrbSlbh23CpEj2cQZbxpdUluVTW Y5TESRnsfnbs+5Bt107usnRSd/intV3yBtLT3I2/0yPPqyOHtIOyWXh7 h0vs7xtO8RBpmXrpxxX5+dpW7JBrczbzTf/1ReCP5nuGe1f+C+fLP8ib GFc=
+l.moot-servers.net.			      86400 IN A	127.0.0.1
+l.moot-servers.net.			      86400 IN RRSIG	A 8 3 86400 20151225212501 20150926202501 24279 . y9BHzjHzidenTlOS3oUTE4WkF/cIbtDpWlLXF2NMoqojYWE9vgJMX7Yo D5rhaqM+FqN/trHWML3I6Q15dPJZLJKB+CH6Qxxqo+zlOro8kzQvbi+G 4nAD3TKJcGzaG5PsAVz8Te17GmedfA51lhXKeq7j+zB42fjeYloB2Vef dlo=
+l.moot-servers.net.			      86400 IN NSEC	m.moot-servers.net. A RRSIG NSEC
+l.moot-servers.net.			      86400 IN RRSIG	NSEC 8 3 86400 20151225212501 20150926202501 24279 . roIkTj5otwarvCGto60vB00n05nooI2u3Cb7nJvI7169BhsWftYVhvhb aW/CnGMslf6wc7bzro9pDi8tTJbdqMT4QKzD17nTF0eqH9Wx021sdYnz UY7Rk/4pzCz21q8A6a2FFc5nnt1Zq1xPdrpuUIT2/MEs44e3WOv+tCaM pSc=
+m.moot-servers.net.			      86400 IN A	127.0.0.1
+m.moot-servers.net.			      86400 IN RRSIG	A 8 3 86400 20151225212501 20150926202501 24279 . UCQkYoqvYBP4VzUoqjxVTxdr7+S23aaCBq7BHXqelf1+R6wzDuIU/fid +taKo8j5a3sCQhrHx+GgXcm9xXwhcX9G/Djk+qnHlcOpiZCnEhcgF9Cq o5CmK/gy9Kuz/ia2G3yymRtR4JRb3nHsWasNH+YP2dFv4bn4tQAh0cwo /Es=
+m.moot-servers.net.			      86400 IN NSEC	sentinel. A RRSIG NSEC
+m.moot-servers.net.			      86400 IN RRSIG	NSEC 8 3 86400 20151225212501 20150926202501 24279 . dH4ySEO9mi80svRk6xmmsQvrylciwSurhiuY4tbZxBcf/UEXCDjK4iQm s1Jbpul6ZzDUpcbeMb+zQfPkZ8Zkg52Q3O5wHT6Emsf4WEmSegr/WiFw NZnXoA8ubrjCg3ffmMgv3iGqRqhn5EcYiaa2GpNuOuWzGEUzRBlLu2rG 3Co=
+sentinel.				      86400 IN A	127.0.0.2
+sentinel.				      86400 IN NSEC	. A RRSIG NSEC
+sentinel.				      86400 IN RRSIG	NSEC 8 1 86400 20151225212501 20150926202501 24279 . aDYchCj4GcpE3GfrM68WXd8FDUbUg5eFcGiP7fHXH1z15ewto/fO7s3D SoLErSOCnZPQq7YWJZIsnHNy4LX8Hkrwjns7p2zrRh5/OiWAxj/C9v1e QpgV7wjxeF3AqQN7pYNrFeIuoaPfdo7P6UtiA47UCqwse6fF3PiV5ikL V80=
+sentinel.				      86400 IN RRSIG	A 8 1 86400 20151225212501 20150926202501 28972 . Qa4IfUTW/hdbicAYaniiLRHYMjhBqaaNtbOMT5nNs+4tJ/RrAD2XCgVG 7qOcCfWDarhEVPsfNO2xUZYs+JCkWsJ4bNcpRExG/O615TltR9pQbyPT DeARuklcxUg3WmOVMB/IJrh35jRv3isS+mzDB5aTnLggva1d8PrWB3Sk 0sUap4DST6oYV+l/Fa8Q4yhVODkGhhZvShjNe38f1rQ6BCO+pH/z3s49 U1rOqJB3dJTpbJgq2cf7JE15opbLC9A8+jArZPvUg3aR44XaffVrW0Z6 qp2dgjEKm0bUUFOItGes0ITWRSNJ3nsxX1AEF3cAXsHNifpCpxxhYbBK s+jgJg==
