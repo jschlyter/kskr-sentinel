@@ -58,4 +58,4 @@ test-unbound:
 
 # try to resolve sentinel using BIND (depends on running auth+rec servers)
 test-bind:
-	dig @127.0.0.1 -p5301 sentinel. A
+	dig +dnssec @127.0.0.1 -p5301 sentinel. A
