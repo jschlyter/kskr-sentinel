@@ -50,7 +50,7 @@ run-named-auth:
 
 # start recursive nameserver on port 5301
 run-named-rec:
-	named -g -c named-recursive.conf
+	named -g -d 10 -c named-recursive.conf
 
 # try to resolve sentinel using Unbound (depends on running auth server)
 test-unbound:
