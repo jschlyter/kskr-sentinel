@@ -46,7 +46,7 @@ keys::
 
 # start root server on port 5300
 run-named-auth:
-	named -g -c named-authoritative.conf
+	named -g -d 10 -c named-authoritative.conf
 
 # start recursive nameserver on port 5301
 run-named-rec:
