@@ -1,5 +1,6 @@
 KEYDIR=		keys
 
+ZONE=		.
 KSK1=		K.+008+54346
 KSK2=		K.+008+28972
 ZSK=		K.+008+24279
@@ -15,20 +16,20 @@ root.zone.unsigned: $(ROOTZONE)
 
 root.zone.signed: root.zone.signed.part1 root.zone.signed.part2
 	cat root.zone.signed.part1 root.zone.signed.part2 > $@
-	ldns-verify-zone $@
+	dnssec-verify -o $(ZONE) $@
 
 # generate a zone signed where records are signed by KSK1/ZSK as usual
 root.zone.signed.part1: root.zone.unsigned
 	dnssec-signzone -at -x -K $(KEYDIR) -e "now+$(90DAYS)" \
-	-o . -f $@.tmp $< $(KSK1) $(ZSK)
-	named-checkzone -D . $@.tmp | grep -v resign= | egrep -v "^sentinel.+RRSIG\tA" > $@
+	-o $(ZONE) -f $@.tmp $< $(KSK1) $(ZSK)
+	named-checkzone -D $(ZONE) $@.tmp | grep -v resign= | egrep -v "^sentinel.+RRSIG\tA" > $@
 	rm -f $@.tmp
 
 # generate a zone signed where all records are signed by KSK2 
 root.zone.signed.part2: root.zone.unsigned
 	dnssec-signzone -at -z -K $(KEYDIR) -e "now+$(90DAYS)" \
-	-o . -f $@.tmp $< $(KSK2)
-	named-checkzone -D . $@.tmp | egrep "^sentinel.+RRSIG\tA" > $@
+	-o $(ZONE) -f $@.tmp $< $(KSK2)
+	named-checkzone -D $(ZONE) $@.tmp | egrep "^sentinel.+RRSIG\tA" > $@
 	rm -f $@.tmp
 
 clean:
