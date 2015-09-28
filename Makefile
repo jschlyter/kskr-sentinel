@@ -54,7 +54,7 @@ run-named-rec:
 
 # try to resolve sentinel using Unbound (depends on running auth server)
 test-unbound:
-	unbound-host -C unbound.conf -F trusted-keys.conf -dvv -t A sentinel.
+	unbound-host -C unbound.conf -F ksk1.conf -dvv -t A sentinel.
 
 # try to resolve sentinel using BIND (depends on running auth+rec servers)
 test-bind:
