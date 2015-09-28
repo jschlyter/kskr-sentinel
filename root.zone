@@ -1,28 +1,4 @@
-.			86400	IN	SOA	a.moot-servers.net. jakob.kirei.se. 1 1800 900 604800 86400
-.			86400	IN	NS	a.moot-servers.net.
-.			86400	IN	NS	b.moot-servers.net.
-.			86400	IN	NS	c.moot-servers.net.
-.			86400	IN	NS	d.moot-servers.net.
-.			86400	IN	NS	e.moot-servers.net.
-.			86400	IN	NS	f.moot-servers.net.
-.			86400	IN	NS	g.moot-servers.net.
-.			86400	IN	NS	h.moot-servers.net.
-.			86400	IN	NS	i.moot-servers.net.
-.			86400	IN	NS	j.moot-servers.net.
-.			86400	IN	NS	k.moot-servers.net.
-.			86400	IN	NS	l.moot-servers.net.
-.			86400	IN	NS	m.moot-servers.net.
-a.moot-servers.net.	86400	IN	A	127.0.0.1
-b.moot-servers.net.	86400	IN	A	127.0.0.1
-c.moot-servers.net.	86400	IN	A	127.0.0.1
-d.moot-servers.net.	86400	IN	A	127.0.0.1
-e.moot-servers.net.	86400	IN	A	127.0.0.1
-f.moot-servers.net.	86400	IN	A	127.0.0.1
-g.moot-servers.net.	86400	IN	A	127.0.0.1
-h.moot-servers.net.	86400	IN	A	127.0.0.1
-i.moot-servers.net.	86400	IN	A	127.0.0.1
-j.moot-servers.net.	86400	IN	A	127.0.0.1
-k.moot-servers.net.	86400	IN	A	127.0.0.1
-l.moot-servers.net.	86400	IN	A	127.0.0.1
-m.moot-servers.net.	86400	IN	A	127.0.0.1
+.			86400	IN	SOA	x.root-servers.net. jakob.kirei.se. 1 1800 900 604800 86400
+.			86400	IN	NS	x.root-servers.net.
+x.root-servers.net.	86400	IN	A	127.0.0.1
 sentinel.		86400	IN	A	127.0.0.2
